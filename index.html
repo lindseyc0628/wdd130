@@ -37,10 +37,17 @@ very excited to start this journey in software developement!
 </html>
 
 <style>
-    nav {
+nav {
     background-color: steelblue;
     padding: 10px;
 }
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
 
 nav a {
     color: white;
@@ -75,6 +82,9 @@ main {
 }
 
 aside {
+    position: absolute;
+    top: 47px;
+    left: 150px;
     max-width: 840px;
     width: 20rem;
     margin: 1rem;
@@ -86,11 +96,15 @@ aside {
 }
 
 aside img {
+    position: absolute;
+    top: 47px;
+    left: 310px;
     width: 200px;
     height: auto;
 }
 
 main img {
+    float: right;
     width: 200px;
     height: auto;
 }
@@ -100,5 +114,21 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 
+}
+
+
+/*class selectors*/
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+aside {
+    width: 20em;
+    text-align: center;
 }
 </style>
